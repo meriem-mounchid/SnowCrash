@@ -1,0 +1,4 @@
+# Write this command
+find / -user flag00 -type f 2>/dev/null
+# Cat file *john
+# Use www.dcode.fr to decrypt this file
