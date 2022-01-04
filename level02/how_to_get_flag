@@ -1,0 +1,6 @@
+# Export file .pcap
+scp -P 4242 level02@IP:/home/user/level02/level02.pcap .
+# Change permission 700
+# Use cloudshark
+# Follow Stream to see details
+# Hex: . ==> Delete (7f) || Enter (0d)
