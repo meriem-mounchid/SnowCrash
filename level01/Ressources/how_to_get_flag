@@ -1,0 +1,12 @@
+# Go to etc folder
+cat /etc/passwd
+# Install john the ripper to crack hash code
+# Run command in run folder
+# Creat a file and pass through it the hash code
+touch test
+# Try:
+./john test
+# Do:
+./john --show test
+
+# grep flag01 /etc/passwd

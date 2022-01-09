@@ -1,4 +1,0 @@
-cat /etc/passwd
-./john --show passwd
-
-# grep flag01 /etc/passwd

@@ -13,7 +13,7 @@ hexdump token
 # Reverce it:
 66 34 6b 6d 6d 36 70 7c 3d 82 7f 70 82 6e 83 82 44 42 83 44 75 7b 7f 8c 89 0a
 # And every nbr ubtract it with on calculator.net:
-0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  10 11 12 13 14 15 16 17 18
+0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  10 11 12 13 14 15 16 17 18 EOL
 # The last result is:
 66 33 69 6A 69 31 6A 75 35 79 75 65 76 61 75 73 34 31 71 31 61 66 69 75 71 EOL
 # Now convert Hex to string with string-functions.com

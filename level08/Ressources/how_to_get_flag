@@ -1,0 +1,6 @@
+# Execute file 
+./level08 token
+# No access so give permission .
+chmod 777 .
+# change the name of the file 
+./level08 newfilename
